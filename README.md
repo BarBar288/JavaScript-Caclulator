@@ -1,2 +1,2 @@
 # JavaScript-Caclulator
-My friend makes Python calculators all the time, so this is a equalizer.
+My friend makes Python calculators all the time, so this is a equalizer, a simple JavaScript calculator.

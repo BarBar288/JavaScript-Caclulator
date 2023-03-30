@@ -35,7 +35,7 @@ if (operation === "add") {
 } else if (operation === "divide") {
     alert(divide(num1, num2));
 } else if (operation === "e") {
-    alert(e(num1))
+    alert(e(num1));
 
 } else {
     alert("Invalid operation");

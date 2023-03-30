@@ -1,31 +1,29 @@
+console.log('initiating program')
 // A simple calculator made in JavaScript. My friend loves making Python calculators, so this is an equalizer.
 // Made by MalekK882, and intended for public use on MalekK882's GitHub account.
 function add(a, b) {
     return a + b;
 }
-let e = 2.71828183
-
+console.log('add function initalized')
 function subtract(a, b) {
     return a - b;
 }
-
+console.log('subtract function initalized')
 function multiply(a, b) {
     return a * b;
 }
-
+console.log('multiply function initialized')
 function divide(a, b) {
     return a / b;
 }
 
-function e(a) {
-    return a * e
-}
-// User Interface
 
+// User Interface
+console.log('creating user interface')
 let num1 = prompt("Please enter the first number:");
 let num2 = prompt("Please enter the second number:");
 let operation = prompt("Please enter the operation to perform: add, subtract, multiply, or divide");
-
+console.log('defining operations')
 if (operation === "add") {
     alert(add(num1, num2));
 } else if (operation === "subtract") {
@@ -40,3 +38,5 @@ if (operation === "add") {
 } else {
     alert("Invalid operation");
 }
+
+console.log('all systems ready')

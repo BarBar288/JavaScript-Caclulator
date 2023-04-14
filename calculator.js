@@ -19,7 +19,6 @@ function divide(a, b) {
 
 
 // User Interface
-console.log('creating user interface')
 let num1 = prompt("Please enter the first number:");
 let num2 = prompt("Please enter the second number:");
 let operation = prompt("Please enter the operation to perform: add, subtract, multiply, or divide");

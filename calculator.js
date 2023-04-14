@@ -35,6 +35,7 @@ if (operation === "add") {
 } else if (operation === "e") {
     alert(e(num1));
 
+console.log('defining invalid operations')
 } else {
     alert("Invalid operation");
 }

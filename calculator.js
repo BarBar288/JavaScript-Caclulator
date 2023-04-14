@@ -22,7 +22,9 @@ function divide(a, b) {
 let num1 = prompt("Please enter the first number:");
 let num2 = prompt("Please enter the second number:");
 let operation = prompt("Please enter the operation to perform: add, subtract, multiply, or divide");
+
 console.log('defining operations')
+
 if (operation === "add") {
     alert(add(num1, num2));
 } else if (operation === "subtract") {
@@ -35,8 +37,10 @@ if (operation === "add") {
     alert(e(num1));
 
 console.log('defining invalid operations')
+
+    
 } else {
     alert("Invalid operation");
 }
 
-console.log('all systems ready')
+console.log('operation completed. click run again to use the calculator again')
